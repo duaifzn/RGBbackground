@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="rgb">
+            <div class="singleColor clearfix">
+                <div class="colorTitle red">
+                    <span>R</span>
+                </div>
+                <div class="colorAdjust">
+                    <input type="range" id="redAdjust" name="points" min="0" max="255" value="0">
+                </div>
+                <div class="colorResult red">
+                    <span id="redResult"></span>
+                </div>
+            </div>
+
+            <div class="singleColor clearfix">
+                    <div class="colorTitle green">
+                        <span>G</span>
+                    </div>
+                    <div class="colorAdjust">
+                        <input type="range" id="greenAdjust" name="points" min="0" max="255" value="0">
+                    </div>
+                    <div class="colorResult green">
+                        <span id="greenResult">0</span>
+                    </div>
+                </div>
+            
+                <div class="singleColor clearfix">
+                        <div class="colorTitle blue">
+                            <span>B</span>
+                        </div>
+                        <div class="colorAdjust">
+                            <input type="range" id="blueAdjust" name="points" min="0" max="255" value="0">
+                        </div>
+                        <div class="colorResult blue">
+                            <span id="blueResult">0</span>
+                        </div>
+                    </div>
+
+            <div class="result">
+                <span>#</span><span id="totalResult">aaa</span>
+            </div>
+        </div>
+
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
