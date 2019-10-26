@@ -1,2 +1,2 @@
 ### My site
-URL: https://github.com/duaifzn/RGBbackground.io
+URL:  https://duaifzn.github.io/RGBbackground/.
